@@ -1,0 +1,6 @@
+{
+  "name": "AMZ TikTok Downloader",
+  "description": "Modern TikTok downloader dashboard with responsive grid layout, history features, and WA share.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
