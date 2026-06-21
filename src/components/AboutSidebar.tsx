@@ -53,8 +53,12 @@ export default function AboutSidebar({ isOpen, onClose }: Props) {
                 <div className="absolute -top-12 -right-12 w-24 h-24 bg-pink-500/10 blur-2xl rounded-full"></div>
                 <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-pink-500 p-1 bg-slate-800 relative z-10">
                   <img
-                    src="https://i.ibb.co/Sw5T3hRq/file-0000000097647230b8747dfea77ef26a.png"
+                    src="https://i.ibb.co/RTbqwFhn/file-00000000258071fdb00b0d11ed38839d.png"
                     alt="Amzdev Logo Profile"
+                    referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.currentTarget.src = "https://i.ibb.co/PGjdHLTp/file-00000000258071fdb00b0d11ed38839d.png";
+                    }}
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>

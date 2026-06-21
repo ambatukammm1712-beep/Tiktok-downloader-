@@ -110,7 +110,15 @@ export default function App() {
               <Menu className="w-5 h-5" />
             </button>
             <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center shadow-lg shadow-pink-500/20 shrink-0">
-              <img src="https://i.ibb.co/Sw5T3hRq/file-0000000097647230b8747dfea77ef26a.png" alt="AMZDOWNLOADER logo" className="w-full h-full object-cover" />
+              <img 
+                src="https://i.ibb.co/RTbqwFhn/file-00000000258071fdb00b0d11ed38839d.png" 
+                alt="AMZDOWNLOADER logo" 
+                referrerPolicy="no-referrer"
+                onError={(e) => {
+                  e.currentTarget.src = "https://i.ibb.co/PGjdHLTp/file-00000000258071fdb00b0d11ed38839d.png";
+                }}
+                className="w-full h-full object-cover" 
+              />
             </div>
             <span className="font-bold text-lg tracking-tight text-white relative">
               AMZDOWNLOADER
